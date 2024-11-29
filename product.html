@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produktdetaljer</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <form class="search-bar">
+                <input type="text" placeholder="Søk her">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <ul class="nav-links">
+                <ol><a href="index.html"><i class="fas fa-home"></i> Hjem</a></ol>
+                <ol><a href="index.html#popular-products"><i class="fas fa-th-list"></i> Produkter</a></ol>
+                <ol><a href="index.html#categories"><i class="fas fa-tags"></i> Kategorier</a></ol>
+                <ol><a href="index.html#footer-section"><i class="fas fa-envelope"></i> Kontakt oss</a></ol>
+            </ul>
+            <div class="nav-icons">
+                <a href="checkout.html"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <nav class="breadcrumb">
+            <a href="index.html">Hjem</a> > 
+            <a href="index.html#categories">Kategori</a> > 
+            <span>Produktnavn</span>
+        </nav>
+
+        <section class="product-page">
+            <div class="product-images">
+                <img src="https://picsum.photos/400/600" alt="Produktbilde">
+                <ul class="thumbnails">
+                    <ol><img src="https://picsum.photos/100/150" alt="Thumbnail"></ol>
+                    <li><img src="https://picsum.photos/100/150" alt="Thumbnail"></li>
+                    <li><img src="https://picsum.photos/100/150" alt="Thumbnail"></li>
+                </ul>
+            </div>
+        
+            <div class="product-info">
+                <h1>Produktnavn</h1>
+                <p class="price">5 195 kr inkl. mva.</p>
+                <p class="color">Farge: <span>Beige</span></p>
+        
+                <div class="actions">
+                    <select>
+                        <option>Velg størrelse</option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                    </select>
+                    <button class="add-to-cart">Legg i handlekurv</button>
+                </div>
+        
+                <div class="product-details">
+                    <details>
+                        <summary>Materiale og vedlikehold</summary>
+                        <p>100% bomull. Vaskes på 30 grader.</p>
+                    </details>
+                    <details>
+                        <summary>Produktdetaljer</summary>
+                        <p>Elegant design med høy kvalitet.</p>
+                    </details>
+                    <details>
+                        <summary>Størrelsestabell</summary>
+                        <table>
+                            <tr>
+                                <th>Størrelse</th>
+                                <th>Brystmål</th>
+                                <th>Midjemål</th>
+                            </tr>
+                            <tr>
+                                <td>Small</td>
+                                <td>85 cm</td>
+                                <td>65 cm</td>
+                            </tr>
+                            <tr>
+                                <td>Medium</td>
+                                <td>90 cm</td>
+                                <td>70 cm</td>
+                            </tr>
+                        </table>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer-section">
+        <h4>Kontakt oss</h4>
+        <p>Adresse: Eksempelgata 123, Fredrikstad</p>
+        <p>Telefon: 123 45 678</p>
+        <p>E-post: kontakt@nettbutikk.no</p>
+        <h4>Sosiale medier</h4>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </footer>
+</body>
+</html>

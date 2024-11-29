@@ -1,13 +1,115 @@
 <!DOCTYPE html>
-<html lang="nb">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nettbutikk</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <header>
+        <nav class="main-nav">
+            <form class="search-bar">
+                <input type="text" placeholder="Søk her">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <ul class="nav-links">
+                <ol><a href="index.html"><i class="fas fa-home"></i> Hjem</a></ol>
+                <ol><a href="index.html#popular-products"><i class="fas fa-th-list"></i> Produkter</a></ol>
+                <ol><a href="index.html#categories"><i class="fas fa-tags"></i> Kategorier</a></ol>
+                <ol><a href="index.html#footer-section"><i class="fas fa-envelope"></i> Kontakt oss</a></ol>
+            </ul>
+            <div class="nav-icons">
+                <a href="checkout.html"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
 
-    Da starter vi da
-    
+    <main>
+       
+        <section class="banner">
+            <h1>Et harum quidem rerum facilis est et expedita distinctio.</h1>
+            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+            <div class="slider-controls1">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button></div>
+            <div class="slider-controls2">
+                <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <a href="#" class="button">Les mer</a>
+        </section>
+
+        <!-- Populære Produkter Seksjon -->
+        <section id="popular-products">
+            <h2>Våre mest populære produkter</h2>
+            <p>Oppdag det beste av det beste</p>
+            <ol class="product-cards">
+                <ol class="product-card">
+                    <img src="https://picsum.photos/200/200" alt="Product Image">
+                    <h3><a href="product.html">Product Name</a></h3>
+                    <p>Kr 499</p>
+                    <p>★★★★★</p>
+                </ol>
+                <ol class="product-card">
+                    <img src="https://picsum.photos/200/201" alt="Product Image">
+                    <h3>Product name</h3>
+                    <p>Kr 1999</p>
+                    <p>★★★★★</p>
+                </ol>
+            </ul>
+        </section>
+
+      
+        <section id="categories">
+            <h2>Kategorier</h2>
+            <ul class="categories-grid">
+                <ol class="category-card" style="background-image: url('https://picsum.photos/300/230');">Category 1</ol>
+                <ol class="category-card" style="background-image: url('https://picsum.photos/300/220');">Category 2</ol>
+                <ol class="category-card" style="background-image: url('https://picsum.photos/300/500');">Category 3</ol>
+                <ol class="category-card wide" style="background-image: url('https://picsum.photos/600/300');">Category 4</ol>
+                <ol class="category-card" style="background-image: url('https://picsum.photos/300/600');">Category 5</ol>
+            </ul>
+        </section>
+
+      
+        <section id="reviews">
+            <h2>Anmeldelser</h2>
+            <ul class="review-cards">
+                <ol class="review-card">
+                    <img src="https://picsum.photos/100/100" alt="Avatar">
+                    <h3>Robert Labrador</h3>
+                    <p>★★★★★</p>
+                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+                </ol>
+                <ol class="review-card">
+                    <img src="https://picsum.photos/100/102" alt="Avatar">
+                    <h3>Sophia Smith</h3>
+                    <p>★★★★</p>
+                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+                </ol>
+                <ol class="review-card">
+                    <img src="https://picsum.photos/100/120" alt="Avatar">
+                    <h3>James Silva</h3>
+                    <p>★★★</p>
+                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+                </ol>
+            </ul>
+        </section>
+    </main>
+
+  
+    <footer id="footer-section">
+        <h4>Kontakt oss</h4>
+        <p>Adresse: Eksempelgata 123, Fredrikstad</p>
+        <p>Telefon: 123 45 678</p>
+        <p>E-post: kontakt@nettbutikk.no</p>
+        <h4>Sosiale medier</h4>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </footer>
 </body>
 </html>
